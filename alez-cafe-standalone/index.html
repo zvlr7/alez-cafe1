@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كافيه الز - Al-Z Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">☕ Al-Z Cafe</div>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#menu" class="nav-link">المنيو</a>
+                    <a href="#contact" class="nav-link">تواصل معنا</a>
+                </nav>
+                <button class="contact-btn">تواصل معنا</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>اكتشف طعم القهوة المتخصصة</h1>
+            <p>مكان يجمع بين الجودة والراحة والأجواء الرائعة</p>
+            <button class="cta-button" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">استكشف المنيو</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <p class="section-subtitle">تجربة قهوة فريدة</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=500&h=400&fit=crop" alt="Cafe Interior">
+                </div>
+                <div class="about-text">
+                    <h3>نحن في كافيه الز</h3>
+                    <p>نقدم أفضل تجربة قهوة متخصصة مع فريق محترف وأجواء دافئة وراقية. كل فنجان قهوة يُحضر بعناية واهتمام لضمان أفضل طعم وجودة.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>قهوة متخصصة عالية الجودة</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>فريق محترف وودود</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>أجواء مريحة وراقية</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>حلويات وإفطار فاخر</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">المنيو</h2>
+            <p class="section-subtitle">استكشف تشكيلتنا الرائعة من القهوة والحلويات والإفطار</p>
+
+            <!-- Beverages -->
+            <div class="menu-category">
+                <h3 class="category-title">المشروبات</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>اسبريسو</h4>
+                            <span class="price">11 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة إسبريسو قوية وغنية</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>قهوة اليوم</h4>
+                            <span class="price">9-11 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة اليوم الطازجة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>امريكانو / ايس</h4>
+                            <span class="price">15 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة أمريكانو ناعمة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>لاتيه / ايس</h4>
+                            <span class="price">17 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة لاتيه مع حليب كريمي</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>اسبانيش / ايس</h4>
+                            <span class="price">17 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة إسبانية متميزة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>كورتادو</h4>
+                            <span class="price">13 ر.س</span>
+                        </div>
+                        <p class="item-description">مزيج متوازن من الإسبريسو والحليب</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>فلات وايت</h4>
+                            <span class="price">14 ر.س</span>
+                        </div>
+                        <p class="item-description">إسبريسو مع حليب ناعم</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>V60</h4>
+                            <span class="price">18 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة V60 المتخصصة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>كركديه</h4>
+                            <span class="price">15 ر.س</span>
+                        </div>
+                        <p class="item-description">مشروب كركديه منعش</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ماتشا</h4>
+                            <span class="price">20 ر.س</span>
+                        </div>
+                        <p class="item-description">شاي ماتشا ياباني</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ايس دريب</h4>
+                            <span class="price">20 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة باردة مقطرة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ايس تشوكلت</h4>
+                            <span class="price">20 ر.س</span>
+                        </div>
+                        <p class="item-description">شوكولاتة باردة منعشة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>قهوة سعودية</h4>
+                            <span class="price">25 ر.س</span>
+                        </div>
+                        <p class="item-description">قهوة سعودية تقليدية</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ميلك شيك</h4>
+                            <span class="price">22 ر.س</span>
+                        </div>
+                        <p class="item-description">ميلك شيك لذيذ وكريمي</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3 class="category-title">الحلويات</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>كيكة الز</h4>
+                            <span class="price">25 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة الز الخاصة والمميزة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>بودينغ التشوكلت</h4>
+                            <span class="price">17 ر.س</span>
+                        </div>
+                        <p class="item-description">بودينغ شوكولاتة لذيذ</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>تيراميسو</h4>
+                            <span class="price">19 ر.س</span>
+                        </div>
+                        <p class="item-description">تيراميسو إيطالي فاخر</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ايس تشيز</h4>
+                            <span class="price">20 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة الجبن الباردة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>ليزي كيك</h4>
+                            <span class="price">26 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة كسولة لذيذة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>كوكنت تشيز</h4>
+                            <span class="price">26 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة جبن بجوز الهند</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>كوكو مانجو</h4>
+                            <span class="price">26 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة جوز الهند والمانجو</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>تشيز مدريد</h4>
+                            <span class="price">29 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة جبن مدريد الفاخرة</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>دولتشي كيك</h4>
+                            <span class="price">27 ر.س</span>
+                        </div>
+                        <p class="item-description">كيكة دولتشي الإيطالية</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breakfast -->
+            <div class="menu-category">
+                <h3 class="category-title">الإفطار</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>سندويتش بيض مع ترافل</h4>
+                            <span class="price">18 ر.س</span>
+                        </div>
+                        <p class="item-description">سندويتش بيض طازج مع ترافل</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>سندويتش حلوم البيستو</h4>
+                            <span class="price">22 ر.س</span>
+                        </div>
+                        <p class="item-description">سندويتش حلوم مع صلصة البيستو</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-subtitle">نحن هنا لخدمتك</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>📍 الموقع</h4>
+                        <p>حي غرناطة، الرياض<br>المملكة العربية السعودية</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📞 الهاتف</h4>
+                        <p>+966 50 123 4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📧 البريد الإلكتروني</h4>
+                        <p>info@alezcafe.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>🕐 ساعات العمل</h4>
+                        <p>الأحد - الخميس: 7 صباحاً - 11 مساءً<br>الجمعة والسبت: 9 صباحاً - 12 منتصف الليل</p>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>الاسم</label>
+                        <input type="text" placeholder="أدخل اسمك" required>
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <label>الرسالة</label>
+                        <textarea rows="4" placeholder="اكتب رسالتك هنا" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>عن كافيه الز</h4>
+                    <p>كافيه الز هو وجهتك المفضلة للاستمتاع بأفضل القهوة المتخصصة مع أجواء رائعة وفريق محترف.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>الروابط السريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#menu">المنيو</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>معلومات التواصل</h4>
+                    <p>الهاتف: +966 50 123 4567<br>البريد: info@alezcafe.com<br>الموقع: حي غرناطة، الرياض</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة © 2024 كافيه الز</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
